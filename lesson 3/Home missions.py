@@ -17,17 +17,17 @@ while  True:
            print('Результат', number)
            break
 
-nname = input('введите Имя: ')
+name = input('введите Имя: ')
 soname = input('введите Фамилию: ')
 weght = int(input('Сколько вы весите: '))
 age = int(input('введите возраст: '))
 
 if age < 50 and age > 20 and weght > 50 and weght < 120:
-    print(name, soname, age,'лет,',weght, 'кг,', 'Отличное состояние')
+    print(name, soname, age,'лет,', weght, 'кг,', 'Отличное состояние')
 elif age > 30 and weght < 50 or weght > 120:
-    print(name, soname, age,'лет,',weght, 'кг,', 'Следует занятся собой')
+    print(name, soname, age,'лет,', weght, 'кг,', 'Следует занятся собой')
 elif age > 40 and weght < 50 or weght > 120:
-    print(name, soname, age,'лет,',weght, 'кг,', 'Следует обратится к врачу')
+    print(name, soname, age,'лет,', weght, 'кг,', 'Следует обратится к врачу')
 
 # Пробный вариант
 
@@ -53,5 +53,3 @@ elif age > 40 and weght < 50:
 elif age > 40 and weght > 120:
     result2 = '{} {} {} лет {} кг, Следует обратиться к врачу'.format(name, soname, age, weght)
     print(result2)
-
-    fdfdf
