@@ -43,6 +43,14 @@ for friend in friends: # Береться переменная которая р
 for letter in friend_name:
     print(letter)
 
+friend_name = 'max'
+
+# выбираем отдельные буквы из строки
+for n, letter in  enumerate(friend_name):
+    if n%2 == 0:
+        print(letter)
+
+
 # Используем для Кортежа
 
 for role in roles:
