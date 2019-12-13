@@ -1,6 +1,8 @@
-cities = ['Las Vages', 'Paris', 'Moscow', 'Paris', 'Moscow']
-print(type(cities))
-print(cities)
+import datetime
+time = datetime.datetime(2013,11, 2)
+new_time = time.replace(month=int(time.month))
 
-cities = set(cities)
-print(cities)
+print(new_time)
+
+
+

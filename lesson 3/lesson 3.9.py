@@ -57,6 +57,7 @@ if hero.find('man') != -1:
     print('Yes')
 if 'man' in hero:
     print('Yes')
+
 goals = ['стать гуру языка python', 'Здоровье', 'Накормить кота']
 
 if 'Здоровье' in goals:

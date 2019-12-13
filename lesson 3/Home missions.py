@@ -53,3 +53,26 @@ elif age > 40 and weght < 50:
 elif age > 40 and weght > 120:
     result2 = '{} {} {} лет {} кг, Следует обратиться к врачу'.format(name, soname, age, weght)
     print(result2)
+
+# ДЗ вторая часть
+
+my_list1 = [2,5,8,2,12,12,4]
+my_list2 = [2,7,12,3]
+
+my_list1 = set(my_list1)
+my_list2 = set(my_list2)
+
+print(my_list1 - my_list2)
+
+# Другой вариант
+
+for el in my_list1:
+    if el in my_list2:
+        my_list1.remove(el)
+print(my_list1)
+
+# Задание № 3
+import datetime
+time = datetime.datetime(2013,11,02)
+print(time)
+
