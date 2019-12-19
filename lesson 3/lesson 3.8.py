@@ -85,6 +85,13 @@ print(hello_str)
 # Использование Format
 hello_str = 'Hello {} you {} old' .format(name, age)
 
+# Вариант через F
+name = "Eric"
+age = 74
+
+print(f"Hello, {name}. You are {age}.")
+# Вывод: 'Hello, Eric. You are 74.'
+
 top5 = 'Первые 5 мест на соревнованиях: 1. иванов 2. петров 3. сидоров 4. орлов 5. соколов '
 start = top5.find('1')
 end = top5.find('4')
