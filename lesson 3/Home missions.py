@@ -196,3 +196,16 @@ if int(first_el_month) == 0:
     first_month = int(first_month[1:])
 
 print(f"{Dates[first_day]} {Months[first_month]} {Data_split[2]} года")
+
+# Задание 2.4 (получить список с уникальными элементами)
+
+numbers_1= [2, 2, 5, 12, 8, 2, 12]
+
+numbers_2 = set(numbers_1)
+
+numbers_3 = []
+
+for i in numbers_2:
+    if(numbers_1.count(i)< 1):
+        numbers_3.append(i)
+        print(numbers_3)
