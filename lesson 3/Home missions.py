@@ -209,3 +209,26 @@ for i in numbers_2:
     if(numbers_1.count(i)< 1):
         numbers_3.append(i)
         print(numbers_3)
+
+# Проверка на дубликаты
+
+numbers_1 = [2, 2, 5, 12, 8, 2, 12]
+
+numbers_1.sort()
+
+for i in range (0, len(numbers_1)-1):
+    if numbers_1[i] == numbers_1[i+1]:
+        print (str(numbers_1[i]))
+
+# Получение индекса повторяющего списка
+numbers_1= [2, 2, 5, 12, 8, 2, 12]
+
+numbers_2 = set(numbers_1)
+
+numbers_3 = []
+
+for i in numbers_2:
+    if(numbers_1.count(i)> 1):
+        index = [i for i, number_2 in enumerate(numbers_1) if numbers_2 == i]
+        numbers_3.append((i, index))
+print(numbers_3)
