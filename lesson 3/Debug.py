@@ -1,3 +1,6 @@
-My_numbers = [2, 2, 3, 3, 5, 6, 6, 8, 8, 9]
+def greeting(who, say='Hello'):
+    print(say, who)
 
+greeting('Leo','Hi')
 
+greeting('Leo')

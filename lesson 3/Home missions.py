@@ -71,6 +71,10 @@ for el in my_list1:
         my_list1.remove(el)
 print(my_list1)
 
+# использование Генератора
+
+print([el for el, in my_list1 if el not in my_list2])
+
 # Задание № 3
 # Dat_input = int(input('Введите дату: '))
 # month_input = int(input('Введите месяц в цифровом формате: '))
@@ -206,7 +210,7 @@ numbers_2 = set(numbers_1)
 numbers_3 = []
 
 for i in numbers_2:
-    if(numbers_1.count(i)< 1):
+    if(numbers_1.count(i) == 1):
         numbers_3.append(i)
         print(numbers_3)
 
