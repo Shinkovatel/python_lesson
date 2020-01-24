@@ -51,9 +51,9 @@ def greeting(say, *args): # * - означает что после нее мож
 
 greeting('Hello', 'Max')
 
-greeting('Hello', 'Max', 'Leo', 'Kate') - # Результат Кортеж
+greeting('Hello', 'Max', 'Leo', 'Kate') # Результат Кортеж
 
 def get_person(**kwargs):
     for k,v in kwargs.items():
         print(k,v)
-get_person(name='Leo', age=20) - # Результат словарь
+get_person(name='Leo', age=20)  # Результат словарь
